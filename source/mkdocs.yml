@@ -1,0 +1,73 @@
+site_name: LC2
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - content.hide.toc
+  palette:
+  - scheme: default
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/weather-night
+      name: Переключиться на тёмную тему
+  - scheme: slate
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/weather-sunny
+      name: Переключиться на светлую тему
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+extra_css:
+  - styles/extra.css
+
+nav:
+  - Главная: index.md
+  - Язык LC:
+    - Язык LC: lc-lang/index.md
+    - Введение:
+      - Типы данных: lc-lang/intro/types.md
+      - Массивы и структуры: lc-lang/intro/arrays_and_structs.md
+      - Функции: lc-lang/intro/functions.md
+      - Области видимости: lc-lang/intro/visibility.md
+      - Ссылки: lc-lang/intro/reference.md
+    - Операции:
+      - Арифметические: lc-lang/operations/arithmetic.md
+      - Побитовые: lc-lang/operations/bitwise.md
+      - Операции сдвига: lc-lang/operations/shift.md
+      - Логические операции: lc-lang/operations/logical.md
+      - Сравнение и равенство: lc-lang/operations/compare.md
+      - Операция присвоения: lc-lang/operations/assign.md
+    - Операторы:
+      - if...else: lc-lang/operators/if.md
+      - for: lc-lang/operators/for.md
+      - while: lc-lang/operators/while.md
+      - do...while: lc-lang/operators/do.md
+      - switch—case: lc-lang/operators/switch.md
+      - continue: lc-lang/operators/continue.md
+      - break: lc-lang/operators/break.md
+    - Особенности Runtime:
+      - Исполнение программы: lc-lang/runtime/runtime.md
+      - Функции init() и loop(): lc-lang/runtime/init_loop.md
+      - IO-переменные: lc-lang/runtime/io_variables.md
+
