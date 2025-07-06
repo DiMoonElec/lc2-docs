@@ -49,8 +49,9 @@ nav:
       - Типы данных: lc-lang/intro/types.md
       - Массивы и структуры: lc-lang/intro/arrays_and_structs.md
       - Функции: lc-lang/intro/functions.md
+      - Параметры функций: lc-lang/intro/function_parameters.md
+      - Возвращаемое значение: lc-lang/intro/return_value.md
       - Области видимости: lc-lang/intro/visibility.md
-      - Ссылки: lc-lang/intro/reference.md
     - Операции:
       - Арифметические: lc-lang/operations/arithmetic.md
       - Побитовые: lc-lang/operations/bitwise.md
@@ -66,8 +67,13 @@ nav:
       - switch—case: lc-lang/operators/switch.md
       - continue: lc-lang/operators/continue.md
       - break: lc-lang/operators/break.md
+      - return: lc-lang/operators/return.md
     - Особенности Runtime:
       - Исполнение программы: lc-lang/runtime/runtime.md
       - Функции init() и loop(): lc-lang/runtime/init_loop.md
       - IO-переменные: lc-lang/runtime/io_variables.md
+    - Компилятор LC:
+      - Параметры командной строки: lc-lang/compiler/params.md
+      - Формат файла проекта: lc-lang/compiler/project_file.md
+      - Интеграция с VS Code: lc-lang/compiler/vscode.md
 
