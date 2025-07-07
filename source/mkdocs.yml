@@ -76,4 +76,6 @@ nav:
       - Параметры командной строки: lc-lang/compiler/params.md
       - Формат файла проекта: lc-lang/compiler/project_file.md
       - Интеграция с VS Code: lc-lang/compiler/vscode.md
+  - Скачать:
+    - Загрузки: downloads/index.md
 
