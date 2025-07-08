@@ -4,17 +4,18 @@
   padding-left: 0;
 }
 
-.md-content__inner ul > li {
+.md-content__inner ul>li {
   position: relative;
   padding-left: 1.5em;
 }
 
-.md-content__inner ul > li::before {
+.md-content__inner ul>li::before {
   content: '🔸';
   position: absolute;
   left: 0;
   font-size: 1.1em;
-  color: #ffb300; /* Amber 600 */
+  color: #ffb300;
+  /* Amber 600 */
 }
 
 
@@ -24,21 +25,24 @@
 .md-content__inner h1::before {
   content: '📖';
   margin-right: 0.4em;
-  color: #00796B; /* Teal 700 */
+  color: #00796B;
+  /* Teal 700 */
 }
 
 /* H2 — основной раздел */
 .md-content__inner h2::before {
   content: '🔶';
   margin-right: 0.4em;
-  color: #FFA000; /* Amber 700 */
+  color: #FFA000;
+  /* Amber 700 */
 }
 
 /* H3 — подраздел */
 .md-content__inner h3::before {
   content: '👉';
   margin-right: 0.4em;
-  color: #FFB300; /* Amber 600 */
+  color: #FFB300;
+  /* Amber 600 */
 }
 
 /* H4 — подподраздел (опционально) */

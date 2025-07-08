@@ -8,6 +8,7 @@ theme:
     - navigation.top
     - navigation.instant
     - content.hide.toc
+    - content.code.copy
   palette:
   - scheme: default
     primary: teal
@@ -76,6 +77,20 @@ nav:
       - Параметры командной строки: lc-lang/compiler/params.md
       - Формат файла проекта: lc-lang/compiler/project_file.md
       - Интеграция с VS Code: lc-lang/compiler/vscode.md
+  - Быстрый старт:
+    - Установка компилятора: quickstart/compiler_setup.md
+    - Установка LC2 Monitor: quickstart/lc2monitor_setup.md
+    - Работа с инструментами:
+      - Компиляция в VS Code: quickstart/tools/compilation.md
+      - LC2 Monitor: quickstart/tools/lc2monitor.md
+    - Контроллер ALPHA-12.1208.01:
+      - Обзор контроллера: quickstart/alpha1208/overview.md
+      - IO-переменные: quickstart/alpha1208/io.md
+    - Примеры:
+      - Работа с реле: quickstart/examples/relay.md
+      - Дискретные входы: quickstart/examples/discrete.md
+      - Аналоговые входы: quickstart/examples/analog.md
+      - Встроенные часы (RTC): quickstart/examples/rtc.md
   - Скачать:
     - Загрузки: downloads/index.md
 
