@@ -57,6 +57,10 @@
 		<byte name="MONTH" id = "55"/>
 		<ushort name="YEAR" id = "56"/>
 	</INPUTS>
-	
+
+	<!-- Пользовательские светодиоды -->
+	<OUTPUTS alias="LED">
+		<bool name="1" id = "128"/>
+	</OUTPUTS>	
   </resources>
 </plc>

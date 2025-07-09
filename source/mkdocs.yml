@@ -78,19 +78,28 @@ nav:
       - Формат файла проекта: lc-lang/compiler/project_file.md
       - Интеграция с VS Code: lc-lang/compiler/vscode.md
   - Быстрый старт:
+    - Быстрый старт: quickstart/index.md
     - Установка компилятора: quickstart/compiler_setup.md
     - Установка LC2 Monitor: quickstart/lc2monitor_setup.md
-    - Работа с инструментами:
-      - Компиляция в VS Code: quickstart/tools/compilation.md
-      - LC2 Monitor: quickstart/tools/lc2monitor.md
+    - Компилятор:
+      - Компиляция в VS Code: quickstart/compiler/compilation.md 
+      - Добавляем поддержку нового контроллера: quickstart/compiler/add_platform.md
+      - Изменяем в проекте целевой контроллер: quickstart/compiler/change_target_controller.md
+      - Проверяем результат: quickstart/compiler/check_result.md
+      - Если что-то пошло не так: quickstart/compiler/difficulties.md
+    - LC2 Monitor:
+      - Обзор: quickstart/lc2monitor/lc2monitor.md
+      - Подключение к контроллеру: quickstart/lc2monitor/connection.md
+      - Загрузка проекта: quickstart/lc2monitor/proj_load.md
+      - Запуск проекта: quickstart/lc2monitor/proj_run.md
     - Контроллер ALPHA-12.1208.01:
       - Обзор контроллера: quickstart/alpha1208/overview.md
       - IO-переменные: quickstart/alpha1208/io.md
     - Примеры:
-      - Работа с реле: quickstart/examples/relay.md
-      - Дискретные входы: quickstart/examples/discrete.md
+      - Дискретные входы и релейные выходы: quickstart/examples/discrete.md
       - Аналоговые входы: quickstart/examples/analog.md
       - Встроенные часы (RTC): quickstart/examples/rtc.md
+      - Пользовательский светодиод: quickstart/examples/led.md
   - Скачать:
     - Загрузки: downloads/index.md
 
