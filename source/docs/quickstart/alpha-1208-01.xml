@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plc>
+  <description>Программируемое реле ALPHA-1208-01</description>
+  <ramavailable>1024</ramavailable>
+  <flashavailable>57344</flashavailable>
+  
+  <native name="_CYCLE" id="1" description="Установка времени цикла">
+    <params>
+      <ushort description="Период цикла (мс)" />
+    </params>
+  </native>
+
+  <resources>
+    <!-- Цифровые входы -->
+	<INPUTS alias="DI">
+		<bool name="1" id = "1"/>
+		<bool name="2" id = "2"/>
+		<bool name="3" id = "3"/>
+		<bool name="4" id = "4"/>
+		<bool name="5" id = "5"/>
+		<bool name="6" id = "6"/>
+		<bool name="7" id = "7"/>
+		<bool name="8" id = "8"/>
+		<bool name="9" id = "9"/>
+		<bool name="10" id = "10"/>
+		<bool name="11" id = "11"/>
+		<bool name="12" id = "12"/>
+	</INPUTS>
+	
+	<!-- Аналоговые входы -->
+	<INPUTS alias="AI">
+		<ushort name="1" id = "81"/>
+		<ushort name="2" id = "82"/>
+		<ushort name="3" id = "83"/>
+		<ushort name="4" id = "84"/>
+	</INPUTS>
+	
+	<!-- Релейные выходы -->
+	<OUTPUTS alias="DO">
+		<bool name="1" id = "21"/>
+		<bool name="2" id = "22"/>
+		<bool name="3" id = "23"/>
+		<bool name="4" id = "24"/>
+		<bool name="5" id = "25"/>
+		<bool name="6" id = "26"/>
+		<bool name="7" id = "27"/>
+		<bool name="8" id = "28"/>
+	</OUTPUTS>
+	
+	<!-- Часы реального времени -->
+	<INPUTS alias="RTC">
+		<byte name="WEEKDAY" id = "50"/>
+		<byte name="SEC" id = "51"/>
+		<byte name="MIN" id = "52"/>
+		<byte name="HOUR" id = "53"/>
+		<byte name="DAY" id = "54"/>
+		<byte name="MONTH" id = "55"/>
+		<ushort name="YEAR" id = "56"/>
+	</INPUTS>
+
+	<!-- Пользовательские светодиоды -->
+	<OUTPUTS alias="LED">
+		<bool name="1" id = "128"/>
+	</OUTPUTS>	
+  </resources>
+</plc>

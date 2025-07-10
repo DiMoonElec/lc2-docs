@@ -1,0 +1,105 @@
+site_name: LC2
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - content.hide.toc
+    - content.code.copy
+  palette:
+  - scheme: default
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/weather-night
+      name: Переключиться на тёмную тему
+  - scheme: slate
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/weather-sunny
+      name: Переключиться на светлую тему
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+extra_css:
+  - styles/extra.css
+
+nav:
+  - Главная: index.md
+  - Язык LC:
+    - Язык LC: lc-lang/index.md
+    - Введение:
+      - Типы данных: lc-lang/intro/types.md
+      - Массивы и структуры: lc-lang/intro/arrays_and_structs.md
+      - Функции: lc-lang/intro/functions.md
+      - Параметры функций: lc-lang/intro/function_parameters.md
+      - Возвращаемое значение: lc-lang/intro/return_value.md
+      - Области видимости: lc-lang/intro/visibility.md
+    - Операции:
+      - Арифметические: lc-lang/operations/arithmetic.md
+      - Побитовые: lc-lang/operations/bitwise.md
+      - Операции сдвига: lc-lang/operations/shift.md
+      - Логические операции: lc-lang/operations/logical.md
+      - Сравнение и равенство: lc-lang/operations/compare.md
+      - Операция присвоения: lc-lang/operations/assign.md
+    - Операторы:
+      - if...else: lc-lang/operators/if.md
+      - for: lc-lang/operators/for.md
+      - while: lc-lang/operators/while.md
+      - do...while: lc-lang/operators/do.md
+      - switch—case: lc-lang/operators/switch.md
+      - continue: lc-lang/operators/continue.md
+      - break: lc-lang/operators/break.md
+      - return: lc-lang/operators/return.md
+    - Особенности Runtime:
+      - Исполнение программы: lc-lang/runtime/runtime.md
+      - Функции init() и loop(): lc-lang/runtime/init_loop.md
+      - IO-переменные: lc-lang/runtime/io_variables.md
+    - Компилятор LC:
+      - Параметры командной строки: lc-lang/compiler/params.md
+      - Формат файла проекта: lc-lang/compiler/project_file.md
+      - Интеграция с VS Code: lc-lang/compiler/vscode.md
+  - Быстрый старт:
+    - Быстрый старт: quickstart/index.md
+    - Установка компилятора: quickstart/compiler_setup.md
+    - Установка LC2 Monitor: quickstart/lc2monitor_setup.md
+    - Компилятор:
+      - Компиляция в VS Code: quickstart/compiler/compilation.md 
+      - Добавляем поддержку нового контроллера: quickstart/compiler/add_platform.md
+      - Изменяем в проекте целевой контроллер: quickstart/compiler/change_target_controller.md
+      - Проверяем результат: quickstart/compiler/check_result.md
+      - Если что-то пошло не так: quickstart/compiler/difficulties.md
+    - LC2 Monitor:
+      - Обзор: quickstart/lc2monitor/lc2monitor.md
+      - Подключение к контроллеру: quickstart/lc2monitor/connection.md
+      - Загрузка проекта: quickstart/lc2monitor/proj_load.md
+      - Запуск проекта: quickstart/lc2monitor/proj_run.md
+    - Контроллер ALPHA-12.1208.01:
+      - Обзор контроллера: quickstart/alpha1208/overview.md
+      - IO-переменные: quickstart/alpha1208/io.md
+    - Примеры:
+      - Дискретные входы и релейные выходы: quickstart/examples/discrete.md
+      - Аналоговые входы: quickstart/examples/analog.md
+      - Встроенные часы (RTC): quickstart/examples/rtc.md
+      - Пользовательский светодиод: quickstart/examples/led.md
+  - Скачать:
+    - Загрузки: downloads/index.md
+
