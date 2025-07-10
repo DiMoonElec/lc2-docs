@@ -79,6 +79,13 @@ void loop() {
 - 🔸 **LCCompiler** — GPL-3
 - 🔸 **LCVM Runtime** — BSD
 
+## <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo" width="40" height="40" style="vertical-align: middle;"> Исходные коды на GitHub  
+Все основные компоненты платформы LC<sup>2</sup> имеют открытые исходные коды и размещены на GitHub:
+
+- 🛠️ [LC Compiler](https://github.com/DiMoonElec/lccompiler) — компилятор исходного кода LC в байт-код.
+- ⚙️ [LC2 Monitor](https://github.com/DiMoonElec/lc2-monitor) — утилита для загрузки и отладки программ на устройстве.
+- 📚 [Документация (этот сайт)](https://github.com/DiMoonElec/lc2-docs) — исходники этой документации.
+
 ---
 
 👉 Начни с [Быстрого старта](/quickstart/) или [Изучи синтаксис языка LC](/lc-lang/)
