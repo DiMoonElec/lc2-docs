@@ -53,6 +53,7 @@ nav:
       - Параметры функций: lc-lang/intro/function_parameters.md
       - Возвращаемое значение: lc-lang/intro/return_value.md
       - Области видимости: lc-lang/intro/visibility.md
+      - Приведение типов: lc-lang/intro/type_cast.md
     - Операции:
       - Арифметические: lc-lang/operations/arithmetic.md
       - Побитовые: lc-lang/operations/bitwise.md
@@ -102,4 +103,5 @@ nav:
       - Пользовательский светодиод: quickstart/examples/led.md
   - Скачать:
     - Загрузки: downloads/index.md
+    - Архив версий: downloads/archive.md
 
