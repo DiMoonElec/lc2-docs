@@ -33,6 +33,9 @@ hide:
 }
 
 </style>
+
+
+
 # Добро пожаловать в <span style="display: inline-block; position: relative;">LC<span style="position: relative; top: -0.25em;">2</span></span>
 
 **<span style="display: inline-block; position: relative;">LC<span style="position: relative; top: -0.25em;">2</span></span>** — это платформа для написания и запуска логики управления на простом, надёжном и понятном языке **LC**.  
@@ -40,7 +43,7 @@ hide:
 
 ---
 
-## 🚀 Что делает <span style="display: inline-block; position: relative;">LC<span style="position: relative; top: -0.25em;">2</span></span>:
+## 🚀 Что делает <span style="display: inline-block; position: relative;">LC<span style="position: relative; top: -0.25em;">2</span></span>
 
 - 🔸 Позволяет **писать управляющую логику** на языке с C-подобным синтаксисом
 - 🔸 **Компилирует** код в байт-код с помощью `LCCompiler`
@@ -79,12 +82,17 @@ void loop() {
 - 🔸 **LCCompiler** — GPL-3
 - 🔸 **LCVM Runtime** — BSD
 
-## <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo" width="40" height="40" style="vertical-align: middle;"> Исходные коды на GitHub  
-Все основные компоненты платформы LC<sup>2</sup> имеют открытые исходные коды и размещены на GitHub:
+<h2> <span class="github-logo-wrapper">
+  <img src="/assets/github-mark.svg" alt="GitHub" class="github-logo light">
+  <img src="/assets/github-mark-white.svg" alt="GitHub" class="github-logo dark">
+</span> Исходные коды на GitHub</h2>
 
-- 🛠️ [LC Compiler](https://github.com/DiMoonElec/lccompiler) — компилятор исходного кода LC в байт-код.
-- ⚙️ [LC2 Monitor](https://github.com/DiMoonElec/lc2-monitor) — утилита для загрузки и отладки программ на устройстве.
-- 📚 [Документация (этот сайт)](https://github.com/DiMoonElec/lc2-docs) — исходники этой документации.
+Все основные компоненты платформы <span style="display: inline-block; position: relative;">LC<span style="position: relative; top: -0.25em;">2</span></span> имеют открытые исходные коды и размещены на GitHub:
+
+- 🛠️ [LC Compiler](https://github.com/DiMoonElec/lccompiler) — компилятор исходного кода LC в байт-код
+- 📟 [LCVM](https://github.com/DiMoonElec/lcvm) — реализация виртуальной машины LCVM на языке C
+- ⚙️ [LC2 Monitor](https://github.com/DiMoonElec/lc2-monitor) — утилита для загрузки и отладки программ на устройстве
+- 📚 [Документация (этот сайт)](https://github.com/DiMoonElec/lc2-docs) — исходники этой документации
 
 ---
 

@@ -51,3 +51,25 @@
   margin-right: 0.4em;
   color: #888;
 }
+
+.github-logo-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative; 
+  top: -0.1em;
+}
+
+.github-logo {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  display: none;
+}
+
+[data-md-color-scheme="default"] .github-logo.light {
+  display: inline;
+}
+
+[data-md-color-scheme="slate"] .github-logo.dark {
+  display: inline;
+}
